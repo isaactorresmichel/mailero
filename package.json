@@ -7,7 +7,20 @@
   "author": "Isaac Torres Michel <isaac@crayon.com.mx>",
   "license": "MIT",
   "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
     "commander": "^2.12.2",
     "inquirer": "^4.0.1"
-  }
+  },
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "preferGlobal": true,
+  "bin": "./mailero.js"
 }
