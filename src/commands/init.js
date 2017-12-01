@@ -1,11 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 
-const defaultConfig = {
-  smpt: '',
-  user: '',
-  password: ''
-}
+import { defaultConfig } from './config'
 
 const createFile = filename => {
   return new Promise((resolve, reject) => {
@@ -21,11 +17,11 @@ const init = () => {
   const filename = path.resolve(dir, 'mailero.json')
   createFile(filename)
     .then(() => {
-      return createFile(filename)
+      console.log('Config file created.')
     })
     .catch(e => {
       console.log(e)
     })
 }
 
-export { init as default, defaultConfig }
+export { init as default }
