@@ -2,7 +2,7 @@
   "name": "mailero",
   "version": "1.0.0",
   "description": "A simple cli tool to send batch mail.",
-  "main": "mailero.js",
+  "main": "index.js",
   "repository": "https://github.com/isaactorresmichel/mailero",
   "author": "Isaac Torres Michel <isaac@crayon.com.mx>",
   "license": "MIT",
